@@ -15,21 +15,20 @@
 
 <div class="content">
   <img style="max-width: 500px;" src="Imagens/Logo.png" alt="Imagem" class="centered-image">
-  <div class="btn-group">
-    <button type="button" class="btn btn-primary mr-2" onclick="redirectToFormularioCoworking()">
-      <i class="fas fa-user-plus"></i> Cadastro Coworking
-    </button>
-    <button type="button" class="btn btn-secondary mr-2" data-toggle="modal" data-target="#startupModal"><i class="far fa-calendar-alt"></i> Agendamento Auditório</button>
-    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#reuniaoModal"><i class="far fa-calendar-check"></i> Agendamento sala de Reunião</button>
-  </div>
+    <h6>Aberto</h6>
+    <button type="button" class="btn btn-success mr-2" onclick="redirectToFormularioCoworking()"><i class="fas fa-user-plus"></i> Cadastro Coworking</button>
+    <br><br>
+    <h6>Uso Exclusivo para Startups Parceiras</h6>
+    <button type="button" style="background-color: rgb(206, 60, 60); color: white;" class="btn mr-2" data-toggle="modal" data-target="#startupModal"><i class="far fa-calendar-alt"></i> Agendamento Auditório</button>
+    <button type="button" style="background-color: rgb(206, 60, 60); color: white;" class="btn" data-toggle="modal" data-target="#reuniaoModal"><i class="far fa-calendar-check"></i> Agendamento sala de Reunião</button>
+  
 </div>
 
 <!-- Conteúdo adicional -->
-<h1>Auditórios</h1>
-<img style="max-width: 500px;" src="Imagens/Auditório 2.jpeg" alt="Imagem" class="centered-image">
-<img style="max-width: 500px;" src="Imagens/Auditório 1.jpeg" alt="Imagem" class="centered-image">
 <h1>Coworking</h1>
 <img style="max-width: 500px;" src="Imagens/Coworkin.jpeg" alt="Imagem" class="centered-image">
+<h1>Auditórios</h1>
+<img style="max-width: 500px;" src="Imagens/Auditório 1.jpeg" alt="Imagem" class="centered-image">
 <h1>Sala de Reunião</h1>
 <img style="max-width: 500px;" src="Imagens/Reuniao.jpeg" alt="Imagem" class="centered-image">
 
@@ -44,7 +43,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <h6 class="modal-title" style="color: red;" id="startupModalLabel">Para agendar voce precisa ter uma startup cadastrada</h6>
+        <h6 class="modal-title" style="color: red;" id="startupModalLabel">Uso Exclusivo para Startups Parceiras</h6>
         <p>Selecione uma opção:</p>
         <button type="button" class="btn btn-primary mr-2" onclick="redirectCadastro()">Já tenho cadastro</button>
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Não tenho cadastro</button>
@@ -64,7 +63,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <h6 class="modal-title" style="color: red;" id="startupModalLabel">Para agendar voce precisa ter uma startup cadastrada</h6>
+        <h6 class="modal-title" style="color: red;" id="startupModalLabel">Uso Exclusivo para Startups Parceiras</h6>
         <p>Selecione uma opção:</p>
         <button type="button" class="btn btn-primary mr-2" onclick="redirectAgendamentoReuniao()">Já tenho cadastro</button>
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Não tenho cadastro</button>
