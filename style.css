@@ -7,7 +7,7 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
   }
 
   .content {
@@ -17,8 +17,8 @@ body {
 
   .centered-image {
     display: block;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px; /* Adicionado um espaço entre as imagens */
   }
 
