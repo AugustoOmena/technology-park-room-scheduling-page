@@ -10,11 +10,6 @@ body {
     background-color: #ffffff;
   }
 
-  .content {
-    text-align: center;
-    margin-bottom: 40px; /* Adicionado um espaço abaixo do conteúdo */
-  }
-
   .centered-image {
     display: block;
     margin-left: auto;
@@ -28,4 +23,19 @@ body {
    .modal-backdrop.show {
     opacity: 0 !important;
   } 
+
+
+  .image-stack {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+  }
+  
+  .image-stack img {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
   
