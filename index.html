@@ -17,7 +17,7 @@
   <br>
   <img style="max-width: 500px;" src="Imagens/PTM.png" alt="Imagem" class="centered-image">
   <br>
-  <div style="background-color: #f6f6f6; border-radius: 8px; padding-bottom: 10px;">
+  <div style="background-color: #f6f6f6; border-radius: 8px; padding-bottom: 10px; padding-top: 4px;">
     <h5 class="text-sm" style="background: linear-gradient(to right, #0069d9, #C3D91F); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
       O Parque Tecnológico do Mar<br> agradece a sua presença!
     </h5>
@@ -94,7 +94,30 @@
         <h6 class="modal-title" style="color: red;" id="startupModalLabel">Uso Exclusivo para Startups Parceiras</h6>
         <p>Selecione uma opção:</p>
         <button type="button" class="btn btn-primary" onclick="redirectAgendamentoReuniao()">Já tenho cadastro</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Não tenho cadastro</button>
+        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modalVerificarCadastro">Não tenho cadastro</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modalVerificarCadastro" tabindex="-1" role="dialog" aria-labelledby="modalVerificarCadastroLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalVerificarCadastroLabel">Verifique Disponibilidade de Cadastro de Startups na Administração do Parque Tecnológico</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Conteúdo do modal -->
+        <p>Fique atento! Em breve abriremos inscrição / Chamamento Público para credenciamento de Startups.</p>
+        <p>Contatos:<br>(24) 3377-6558</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Verificar</button>
       </div>
     </div>
   </div>
